@@ -1,0 +1,65 @@
+body {
+    /* background-color: brown; */
+}
+/* h1{
+    font-family: "Sawarabi Mincho", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through gray;
+    text-shadow: -10px 4px 10px red;
+    line-height: 100px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: left;
+    text-indent: 2rem;
+} */
+
+ul{
+    list-style-type: lower-latin;
+    font-family: "Lobster";
+}
+
+.konten{
+    background-color: plum;
+    border: 5px groove black;
+    margin: 20px 30px; 
+    /* padding: 50px; */
+    padding: 30px 30px;
+}
+.konten1{
+    background-color: aqua;
+    margin: 20px 40px;
+    padding: 20px 40px;
+}
+.box{
+    transition: 1s;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    top: 20px;
+    left: 20px;
+    position: relative;
+}
+.box:hover{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-color: aquamarine;
+    transform: rotate(4500deg);
+    position: relative;
+}
+.box:active{
+    transition: .5s;
+    background-color: red;
+}
+
+input:focus{
+    background-color: rgb(6, 71, 71);
+}
+input:hover{
+    background-color: fuchsia;
+}
+input:active{
+    background-color: sandybrown;
+}
