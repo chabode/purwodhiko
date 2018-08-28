@@ -14,18 +14,18 @@ body {
     text-indent: 2rem;
 } */
 
-ul{
+/* ul{
     list-style-type: lower-latin;
     font-family: "Lobster";
-}
+} */
 
-.konten{
+/* .konten{
     background-color: plum;
     border: 5px groove black;
     margin: 20px 30px; 
     /* padding: 50px; */
     padding: 30px 30px;
-}
+} */
 .konten1{
     background-color: aqua;
     margin: 20px 40px;
